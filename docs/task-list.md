@@ -332,7 +332,7 @@ Implement Conway's Game of Life cellular automaton. Features clickable grid to t
 ---
 pr_id: PR-007
 title: Blackjack Game Implementation
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 5
