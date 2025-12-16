@@ -379,7 +379,7 @@ Implement Blackjack (21) card game. Features standard deck, Hit/Stand/Double Dow
 ---
 pr_id: PR-008
 title: Asteroids Game Implementation
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 7
