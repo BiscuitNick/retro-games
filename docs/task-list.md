@@ -110,7 +110,7 @@ Initialize the Next.js 16 project with TypeScript, Tailwind CSS 4, and shadcn/ui
 ---
 pr_id: PR-002
 title: Layout Foundation with Navigation, Footer, and Theme Toggle
-cold_state: new
+cold_state: completed
 priority: high
 complexity:
   score: 5
