@@ -632,7 +632,7 @@ Build the home page featuring all 10 games in a responsive card grid. Each card 
 ---
 pr_id: PR-014
 title: Unit Tests for Game Logic Engines
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 5
