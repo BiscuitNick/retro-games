@@ -20,17 +20,14 @@ parallel_tracks:
   - name: documentation
     prs: [PR-017]
 ```
-
 ---
-
 ## Foundation Phase
 
 ### PR-000: Lemegeton Setup
-
 ---
 pr_id: PR-000
 title: Lemegeton Setup
-cold_state: new
+cold_state: completed
 priority: high
 complexity:
   score: 2
@@ -49,7 +46,6 @@ estimated_files:
     action: create
     description: Original specification
 ---
-
 **Description:**
 Initialize Lemegeton orchestration for the retro games project. Set up the task list structure and documentation folder to enable multi-agent coordination.
 
@@ -57,11 +53,8 @@ Initialize Lemegeton orchestration for the retro games project. Set up the task 
 - [ ] docs/ folder exists with spec.md, prd.md, and task-list.md
 - [ ] Task list follows Lemegeton YAML frontmatter format
 - [ ] All PRs have proper dependencies defined
-
 ---
-
 ### PR-001: Project Initialization
-
 ---
 pr_id: PR-001
 title: Project Initialization with Next.js 16, Tailwind 4, shadcn/ui
@@ -102,7 +95,6 @@ estimated_files:
     action: create
     description: Utility functions for shadcn/ui
 ---
-
 **Description:**
 Initialize the Next.js 16 project with TypeScript, Tailwind CSS 4, and shadcn/ui. Configure the retro theme colors (neon pink, cyan, purple on dark backgrounds). Set up the project structure matching the file architecture in the spec.
 
@@ -113,11 +105,8 @@ Initialize the Next.js 16 project with TypeScript, Tailwind CSS 4, and shadcn/ui
 - [ ] Custom retro color palette defined in Tailwind config
 - [ ] Project builds without errors
 - [ ] Development server runs successfully
-
 ---
-
 ### PR-002: Layout Foundation (Navbar, Footer, Theme)
-
 ---
 pr_id: PR-002
 title: Layout Foundation with Navigation, Footer, and Theme Toggle
@@ -158,7 +147,6 @@ estimated_files:
     action: create
     description: Game metadata (names, routes, descriptions)
 ---
-
 **Description:**
 Build the persistent layout shell that wraps all pages. Includes a responsive navbar with links to all 10 games, a light/dark theme toggle using next-themes and shadcn Switch, and a footer. Mobile navigation uses a hamburger menu with slide-out drawer.
 
@@ -169,13 +157,10 @@ Build the persistent layout shell that wraps all pages. Includes a responsive na
 - [ ] Mobile hamburger menu works on screens < 768px
 - [ ] Footer displays on all pages
 - [ ] All 10 game links present in navigation
-
 ---
-
 ## Games Phase - Batch 1 (Parallel)
 
 ### PR-003: Snake Game Implementation
-
 ---
 pr_id: PR-003
 title: Snake Game Implementation
@@ -204,7 +189,6 @@ estimated_files:
     action: create
     description: Full-page snake game
 ---
-
 **Description:**
 Implement the classic Snake game with grid-based rendering. Snake grows when eating food, game ends on wall/self collision. Includes score tracking, speed increase per level, and keyboard (WASD/Arrow) plus touch (swipe) controls.
 
@@ -217,11 +201,8 @@ Implement the classic Snake game with grid-based rendering. Snake grows when eat
 - [ ] Touch/swipe controls for mobile
 - [ ] Pause/Resume functionality
 - [ ] Works in both card and full-page modes
-
 ---
-
 ### PR-004: Tetris Game Implementation
-
 ---
 pr_id: PR-004
 title: Tetris Game Implementation
@@ -250,7 +231,6 @@ estimated_files:
     action: create
     description: Full-page tetris game
 ---
-
 **Description:**
 Implement Tetris with all 7 standard tetrominoes (I, O, T, S, Z, J, L). Features rotation with wall kicks, hard/soft drop, line clearing with scoring, level progression with speed increase, and next piece preview.
 
@@ -263,11 +243,8 @@ Implement Tetris with all 7 standard tetrominoes (I, O, T, S, Z, J, L). Features
 - [ ] Next piece preview displayed
 - [ ] Hard drop (spacebar) and soft drop (down arrow)
 - [ ] Game over when pieces stack to top
-
 ---
-
 ### PR-005: Minesweeper Game Implementation
-
 ---
 pr_id: PR-005
 title: Minesweeper Game Implementation
@@ -296,7 +273,6 @@ estimated_files:
     action: create
     description: Full-page minesweeper game
 ---
-
 **Description:**
 Implement Minesweeper with three difficulty levels (Easy 9x9/10, Medium 16x16/40, Hard 30x16/99). Features left-click to reveal, right-click to flag, recursive reveal for empty cells, timer, and mine counter.
 
@@ -309,11 +285,8 @@ Implement Minesweeper with three difficulty levels (Easy 9x9/10, Medium 16x16/40
 - [ ] Win condition: all non-mine cells revealed
 - [ ] Lose condition: mine revealed
 - [ ] Timer and remaining mine counter
-
 ---
-
 ### PR-006: Conway's Game of Life Implementation
-
 ---
 pr_id: PR-006
 title: Conway's Game of Life Implementation
@@ -342,7 +315,6 @@ estimated_files:
     action: create
     description: Full-page game of life
 ---
-
 **Description:**
 Implement Conway's Game of Life cellular automaton. Features clickable grid to toggle cells, play/pause simulation, adjustable speed, generation counter, and preset patterns (glider, blinker, beacon, etc.).
 
@@ -355,11 +327,8 @@ Implement Conway's Game of Life cellular automaton. Features clickable grid to t
 - [ ] Clear grid button
 - [ ] Random fill button
 - [ ] At least 3 preset patterns available
-
 ---
-
 ### PR-007: Blackjack Game Implementation
-
 ---
 pr_id: PR-007
 title: Blackjack Game Implementation
@@ -391,7 +360,6 @@ estimated_files:
     action: create
     description: Full-page blackjack game
 ---
-
 **Description:**
 Implement Blackjack (21) card game. Features standard deck, Hit/Stand/Double Down actions, dealer AI (hits on 16 and below), chip betting system, and win/lose/push outcomes with proper hand evaluation including Ace handling.
 
@@ -404,13 +372,10 @@ Implement Blackjack (21) card game. Features standard deck, Hit/Stand/Double Dow
 - [ ] Bust detection for player and dealer
 - [ ] Chip betting with starting bankroll
 - [ ] Visual card display with suits
-
 ---
-
 ## Games Phase - Batch 2 (Parallel)
 
 ### PR-008: Asteroids Game Implementation
-
 ---
 pr_id: PR-008
 title: Asteroids Game Implementation
@@ -439,7 +404,6 @@ estimated_files:
     action: create
     description: Full-page asteroids game
 ---
-
 **Description:**
 Implement Asteroids arcade game with canvas rendering. Features rotating ship with thrust, wrap-around screen edges, shooting bullets, asteroids that split into smaller pieces, score system, and lives.
 
@@ -452,11 +416,8 @@ Implement Asteroids arcade game with canvas rendering. Features rotating ship wi
 - [ ] Score increases with asteroid destruction
 - [ ] Lives system (3 lives default)
 - [ ] Wave progression with more asteroids
-
 ---
-
 ### PR-009: Space Invaders Game Implementation
-
 ---
 pr_id: PR-009
 title: Space Invaders Game Implementation
@@ -485,7 +446,6 @@ estimated_files:
     action: create
     description: Full-page space invaders game
 ---
-
 **Description:**
 Implement Space Invaders arcade game. Features alien grid that moves side-to-side and descends, player cannon at bottom, destructible shields, alien shooting, UFO bonus, and wave progression.
 
@@ -498,11 +458,8 @@ Implement Space Invaders arcade game. Features alien grid that moves side-to-sid
 - [ ] Different alien types worth different points
 - [ ] Wave clears when all aliens destroyed
 - [ ] Game over when aliens reach bottom or player loses all lives
-
 ---
-
 ### PR-010: Breakout Game Implementation
-
 ---
 pr_id: PR-010
 title: Breakout Game Implementation
@@ -531,7 +488,6 @@ estimated_files:
     action: create
     description: Full-page breakout game
 ---
-
 **Description:**
 Implement Breakout brick-breaking game. Features paddle control, bouncing ball, multi-colored brick layers worth different points, ball angle based on paddle hit position, and level progression.
 
@@ -544,11 +500,8 @@ Implement Breakout brick-breaking game. Features paddle control, bouncing ball, 
 - [ ] Level complete when all bricks destroyed
 - [ ] Lives lost when ball falls below paddle
 - [ ] Score and lives display
-
 ---
-
 ### PR-011: Pinball Game Implementation
-
 ---
 pr_id: PR-011
 title: Pinball Game Implementation
@@ -577,7 +530,6 @@ estimated_files:
     action: create
     description: Full-page pinball game
 ---
-
 **Description:**
 Implement a simplified Pinball game with canvas physics. Features two flippers controlled by left/right keys, circular bumpers that bounce the ball, lanes, a plunger to launch, gravity, and score multipliers.
 
@@ -590,11 +542,8 @@ Implement a simplified Pinball game with canvas physics. Features two flippers c
 - [ ] Score multiplier zones
 - [ ] 3 balls per game
 - [ ] Ball respawn with plunger after loss
-
 ---
-
 ### PR-012: Barrack Game Implementation
-
 ---
 pr_id: PR-012
 title: Barrack Artillery Game Implementation
@@ -623,7 +572,6 @@ estimated_files:
     action: create
     description: Full-page barrack game
 ---
-
 **Description:**
 Implement Barrack-style artillery game inspired by Ambrosia Software's classic. Features turn-based combat, angle and power selection, wind factor affecting shots, destructible terrain, and tank/cannon units.
 
@@ -636,13 +584,10 @@ Implement Barrack-style artillery game inspired by Ambrosia Software's classic. 
 - [ ] Destructible/deformable terrain
 - [ ] Turn-based gameplay vs AI or hot-seat
 - [ ] Victory when all enemies destroyed
-
 ---
-
 ## Integration Phase
 
 ### PR-013: Home Page with Game Cards Grid
-
 ---
 pr_id: PR-013
 title: Home Page with Game Cards Grid
@@ -668,7 +613,6 @@ estimated_files:
     action: modify
     description: Add retro styling variants to card
 ---
-
 **Description:**
 Build the home page featuring all 10 games in a responsive card grid. Each card contains a playable mini-instance of the game. Grid displays 3 columns on desktop, 2 on tablet, 1 on mobile. Cards have consistent sizing, retro glow effects on hover, and controls to play/pause.
 
@@ -681,13 +625,10 @@ Build the home page featuring all 10 games in a responsive card grid. Each card 
 - [ ] Click card title/header navigates to full game page
 - [ ] Cards maintain consistent aspect ratio
 - [ ] Smooth scroll and transitions
-
 ---
-
 ## Testing Phase
 
 ### PR-014: Unit Tests for Game Engines
-
 ---
 pr_id: PR-014
 title: Unit Tests for Game Logic Engines
@@ -716,7 +657,6 @@ estimated_files:
     action: create
     description: Jest configuration
 ---
-
 **Description:**
 Write unit tests for game engine logic modules. Focus on core game rules, collision detection, win/lose conditions, and state transitions. Use Jest with TypeScript support.
 
@@ -728,11 +668,8 @@ Write unit tests for game engine logic modules. Focus on core game rules, collis
 - [ ] Blackjack: hand value, dealer logic, outcome tests
 - [ ] All tests pass with `pnpm test`
 - [ ] Coverage > 70% for tested modules
-
 ---
-
 ### PR-015: Component Integration Tests
-
 ---
 pr_id: PR-015
 title: Component Integration Tests
@@ -755,7 +692,6 @@ estimated_files:
     action: create
     description: Home page integration tests
 ---
-
 **Description:**
 Write integration tests for React components using React Testing Library. Test navigation, theme toggle, responsive behavior, and game card interactions.
 
@@ -766,11 +702,8 @@ Write integration tests for React components using React Testing Library. Test n
 - [ ] Game cards render with correct games
 - [ ] Navigation links route correctly
 - [ ] Tests pass in CI environment
-
 ---
-
 ### PR-016: E2E Tests with Playwright
-
 ---
 pr_id: PR-016
 title: End-to-End Tests with Playwright
@@ -796,7 +729,6 @@ estimated_files:
     action: create
     description: Snake game E2E tests
 ---
-
 **Description:**
 Set up Playwright for end-to-end testing. Write E2E tests covering navigation flow, theme persistence, and basic game interactions to ensure the full app works as expected in real browsers.
 
@@ -807,13 +739,10 @@ Set up Playwright for end-to-end testing. Write E2E tests covering navigation fl
 - [ ] Theme toggle persists across navigation
 - [ ] At least one game (Snake) has playability test
 - [ ] Tests run in CI with headless browser
-
 ---
-
 ## Documentation Phase
 
 ### PR-017: Architecture Documentation
-
 ---
 pr_id: PR-017
 title: Architecture Documentation
@@ -836,7 +765,6 @@ estimated_files:
     action: modify
     description: Update with setup and usage instructions
 ---
-
 **Description:**
 Document the project architecture, component structure, game engine patterns, and provide a guide for adding new games. Update README with setup instructions, available scripts, and deployment notes.
 
@@ -847,9 +775,7 @@ Document the project architecture, component structure, game engine patterns, an
 - [ ] README lists all available npm scripts
 - [ ] Deployment instructions included
 - [ ] All diagrams/flowcharts are text-based (Mermaid)
-
 ---
-
 ## Dependency Graph
 
 ```
