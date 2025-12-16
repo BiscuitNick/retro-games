@@ -505,7 +505,7 @@ Implement Breakout brick-breaking game. Features paddle control, bouncing ball, 
 ---
 pr_id: PR-011
 title: Pinball Game Implementation
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 8
