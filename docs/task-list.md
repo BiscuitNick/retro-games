@@ -164,7 +164,7 @@ Build the persistent layout shell that wraps all pages. Includes a responsive na
 ---
 pr_id: PR-003
 title: Snake Game Implementation
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 4
