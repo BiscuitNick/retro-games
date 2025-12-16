@@ -206,7 +206,7 @@ Implement the classic Snake game with grid-based rendering. Snake grows when eat
 ---
 pr_id: PR-004
 title: Tetris Game Implementation
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 6
