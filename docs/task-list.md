@@ -421,7 +421,7 @@ Implement Asteroids arcade game with canvas rendering. Features rotating ship wi
 ---
 pr_id: PR-009
 title: Space Invaders Game Implementation
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 6
