@@ -290,7 +290,7 @@ Implement Minesweeper with three difficulty levels (Easy 9x9/10, Medium 16x16/40
 ---
 pr_id: PR-006
 title: Conway's Game of Life Implementation
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 4
