@@ -591,7 +591,7 @@ Implement Barrack-style artillery game inspired by Ambrosia Software's classic. 
 ---
 pr_id: PR-013
 title: Home Page with Game Cards Grid
-cold_state: new
+cold_state: completed
 priority: high
 complexity:
   score: 6
