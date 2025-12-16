@@ -248,7 +248,7 @@ Implement Tetris with all 7 standard tetrominoes (I, O, T, S, Z, J, L). Features
 ---
 pr_id: PR-005
 title: Minesweeper Game Implementation
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 5
