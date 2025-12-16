@@ -463,7 +463,7 @@ Implement Space Invaders arcade game. Features alien grid that moves side-to-sid
 ---
 pr_id: PR-010
 title: Breakout Game Implementation
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 5
