@@ -58,7 +58,7 @@ Initialize Lemegeton orchestration for the retro games project. Set up the task 
 ---
 pr_id: PR-001
 title: Project Initialization with Next.js 16, Tailwind 4, shadcn/ui
-cold_state: new
+cold_state: completed
 priority: high
 complexity:
   score: 4
