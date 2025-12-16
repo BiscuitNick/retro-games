@@ -547,7 +547,7 @@ Implement a simplified Pinball game with canvas physics. Features two flippers c
 ---
 pr_id: PR-012
 title: Barrack Artillery Game Implementation
-cold_state: new
+cold_state: completed
 priority: medium
 complexity:
   score: 7
